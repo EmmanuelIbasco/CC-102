@@ -1,0 +1,47 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	
+	int sugarQty;
+	int riceQty;
+	int sardinesQty;
+	int coffeeQty;
+	int milkQty;
+	
+	int sugarPriceUSD;
+	int ricePricePound;
+	int sardinesPricePound;
+	int coffeePriceUSD;
+	int milkPriceUSD;
+	
+	cout << "Enter the price of sugar ( in USD ):";
+	cin >> sugarPriceUSD;
+	cout << "Enter the Price of rice (in Pound):";
+	cin >> ricePricePound;
+	cout << "Enter the price of sardines (in Pound):";
+	cin >> sardinesPricePound;
+	cout << "Enter the price of coffee (in USD):";
+	cin >> coffeePriceUSD;
+	cout << "Enter the price of milk (in USD):";
+	cin >> milkPriceUSD;
+	
+	
+	cout << "Enter the quantity of sugar purchase:";
+	cin >> sugarQty;
+	cout << "Enter the quantity of rice purchase:";
+	cin >> riceQty;
+	cout << "Enter the quantity of sardines purchase:";
+	cin >> sardinesQty;
+	cout << "Enter the quantity of coffee purchase:";
+	cin >> coffeeQty;
+	cout << "Enter the quantity of milk purchase:";
+	cin >> milkQty;
+	
+		 
+
+	return 0;
+	
+}
